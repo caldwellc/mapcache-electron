@@ -18,9 +18,9 @@ init:
 
 install:
   - ps: Install-Product node 8.11.2 x64
-  - yarn
+  - npm install
 
 build_script:
-  - yarn run build-windows
+  - npm run build-windows
 
 test: off
