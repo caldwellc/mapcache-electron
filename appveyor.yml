@@ -2,7 +2,7 @@ branches:
   only:
     - master
 
-version: 0.0.8
+version: 0.0.8-{build}
 
 image: Visual Studio 2017
 
